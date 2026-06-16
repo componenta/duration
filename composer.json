@@ -1,0 +1,30 @@
+{
+    "name": "componenta/duration",
+    "description": "Immutable ISO 8601 duration value object",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "pestphp/pest": "^4.0",
+        "phpunit/phpunit": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Componenta\\Stdlib\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Componenta\\Stdlib\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable"
+}
